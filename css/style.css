@@ -1,0 +1,526 @@
+/***************************
+These are the styles for
+the footer section
+***************************/
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #ffcd00;
+    font-size: 65%;
+    padding: 2px;
+    width: 100%;
+    clear: both;
+    position: inherit;
+    bottom: 0;
+}
+
+/***************************
+These are the styles for
+the "section" and .section, sections
+***************************/
+section {
+    min-height: 500px;
+}
+.section {
+    height: 100vh;
+}
+
+/***************************
+These are the styles for
+the body section
+***************************/
+body {
+    font-family: 'Josefin Sans',sans-serif;
+    background-color: #000;
+    margin: 0;
+    color: #c0b832;
+}
+
+/***************************
+These are the styles for
+the form section
+***************************/
+form {
+    text-align: center;
+}
+
+/***************************
+These are the styles for heading 1
+***************************/
+h1 {
+    font-family: 'Josefin Sans',sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    color: #c0b832;
+}
+
+/***************************
+These are the styles for heading 1
+***************************/
+h3 {
+    font-family: 'Josefin Sans',sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: #c0b832;
+}
+
+/***************************
+These are the styles for
+the .cartImage
+***************************/
+.cartImage {
+    height: 50px;
+    width: 50px;
+}
+
+/***************************
+These are the styles for
+the wrapper
+***************************/
+#wrapper {
+    background-repeat: repeat-y;
+    background-color: #000;
+    margin-left: auto;	
+    margin-right: auto;	
+    width: 100%;	
+    padding: 0;
+}
+
+/***************************
+These are the styles for
+the navigation section
+***************************/
+#navigation {
+    text-align: center;	
+    background-color: #000;	
+    color: #c0b832;	
+    font-size: 100%;	
+    padding: 6px;	
+    width: 100%;
+	
+}
+/***************************
+These are the styles for
+the headerBlock section
+***************************/
+#headerBlock {
+    display: block;
+    margin: auto;
+    height: 122px;
+    width: 100%;
+    position: relative;
+}
+
+/***************************
+These are the styles for
+the headerNav section
+***************************/
+#headerBlock .headerNav {
+    display: inline;
+    margin-top: 55px;
+}
+
+/***************************
+These are the styles for
+the headerLogo section
+***************************/
+#headerBlock .headerLogo {
+    padding: 5px 0 0;
+    float: left;
+    padding-left: 10px;
+}
+
+/***************************
+These are the styles for
+the sub-menu section
+***************************/
+#headerBlock .sub-menu {
+    position: absolute;
+    display: none;
+    background: #ccc;
+}
+
+/***************************
+These are the styles for
+the headerCart section
+***************************/
+#headerBlock .headerCart {
+    float: right;
+    display: block;
+    margin-right: 25px;
+    font-size: 90%;
+}
+
+/***************************
+These are the styles for
+the footerBlock section
+***************************/
+#footerBlock {
+    position: fixed;
+}
+
+/***************************
+These are the styles for
+the footerNav section
+***************************/
+#footerBlock .footerNav {
+    display: inline;
+}
+
+/***************************
+These are the styles for
+the footerC section
+***************************/
+#footerBlock .footerC {
+    padding: 5px 0 0;
+    float: left;
+    display: inline;
+}
+
+/***************************
+These are the styles for
+the footerContact section
+***************************/
+#footerBlock .footerContact {
+    float: right;
+    display: inline;
+}
+
+/***************************
+These are the styles for
+the header section
+***************************/
+a:visited {
+    color: #c0b832;
+}
+
+/***************************
+These are the styles for
+the header section
+***************************/
+ul {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+/***************************
+These are the styles for
+the list section
+***************************/
+li {
+    color: #c0b832;
+    list-style-type: none;
+    display: inline;
+    font-family: 'Josefin Sans',sans-serif;
+    text-decoration: none;
+}
+
+/***************************
+These are the styles for
+the drop down button
+***************************/
+li a,dropbtn {
+    display: inline-block;
+    color: #c0b832;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/***************************
+These are the styles for
+the drop down button
+***************************/
+li a:hover,.dropdown:hover .dropbtn {
+    text-decoration: none;
+}
+
+/***************************
+These are the styles for
+the drop down button
+***************************/
+li.dropdown {
+    display: inline-block;
+}
+
+/***************************
+These are the styles for
+the drop down button
+***************************/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bab9b8;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/***************************
+These are the styles for
+the drop down button
+***************************/
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/***************************
+These are the styles for
+the drop down button
+***************************/
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/***************************
+These are the styles for
+the splashMain section
+***************************/
+#splashMain {
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    background-color: #000;
+}
+
+/***************************
+These are the styles for
+the indexImage section
+***************************/
+#indexImage {
+    float: left;
+    padding: 0;
+    width: 40%;
+    height: auto;
+    margin-left: 20%;
+}
+
+/***************************
+These are the styles for
+the indexMain section
+***************************/
+#indexMain {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 25%;
+    margin-left: 5%;
+    display: block;
+}
+
+/***************************
+These are the styles for
+the adminMenu section
+***************************/
+#adminMenu {
+    overflow: hidden;
+    float: left;
+    padding: 15px;
+    margin: 50px;
+    width: 15%;
+}
+
+/***************************
+These are the styles for
+the adminMain section
+***************************/
+#adminMain {
+    padding: 0;
+    float: left;
+    width: 70%;
+}
+
+/***************************
+These are the styles for
+the userGalleryMenu section
+***************************/
+#userGalleryMenu {
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    width: 25%;
+}
+
+/***************************
+These are the styles for
+the userGalleryMain section
+***************************/
+#userGalleryMain {
+    padding: 0;
+    float: left;
+    width: 75%;
+}
+
+/***************************
+These are the styles for
+the paragraph section
+***************************/
+p {
+    margin: 10px auto auto 10px;
+    font-style: normal;
+}
+
+/***************************
+These are the styles for
+the gallery section
+***************************/
+.gallery {
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 20px;
+	margin-top: 20px;
+    width: 200px;
+    height: 275px;
+}
+
+/***************************
+These are the styles for
+the userGallery section
+***************************/
+.userGallery {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 20px;
+	margin-top: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+/***************************
+These are the styles for
+the thumbnail section
+***************************/
+.thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
+/***************************
+These are the styles for
+the error section
+***************************/
+.error {
+    color: red;
+}
+
+/***************************
+These are the styles for
+the header section
+***************************/
+a {
+    text-decoration: none;
+    color: #c0b832;
+}
+
+/***************************
+These are the styles for
+the facebook icon section
+***************************/
+.facebook {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/facebook.png);
+    height: 30px;
+    width: 30px;
+}
+.facebook:hover {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/facebookInvert.png);
+    height: 30px;
+    width: 30px;
+}
+
+/***************************
+These are the styles for
+the twitter icon section
+***************************/
+.twitter {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/twitter.png);
+    height: 30px;
+    width: 30px;
+}
+.twitter:hover {
+    background-image: url(../images/twitterInvert.png);
+    height: 30px;
+    width: 30px;
+}
+
+/***************************
+These are the styles for
+the instagram section
+***************************/
+.instagram {
+    background-image: url(../images/instagram.png);
+    height: 30px;
+    width: 30px;
+}
+.instagram:hover {
+    background-image: url(../images/instagramInvert.png);
+    height: 30px;
+    width: 30px;
+}
+
+/***************************
+These are the styles for tablet
+***************************/
+@media only screen and (max-width: 767px) {
+    #indexImage {
+        padding: 5%;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    #indexMain {
+        text-align: center;
+        padding: 5%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/***************************
+These are the styles for mobile
+***************************/
+@media screen and (max-device-width: 480px) {
+    #indexImage {
+        padding: 5%;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    #indexMain {
+        text-align: center;
+        padding: 5%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
